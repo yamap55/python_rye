@@ -1,4 +1,4 @@
-from hoge.huga import Huga
+from python_rye.huga import Huga
 
 
 class TestHuga:

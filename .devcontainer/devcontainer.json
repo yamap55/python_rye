@@ -1,9 +1,9 @@
 // ref. https://github.com/Microsoft/vscode-remote-try-python
 {
-  "name": "Python Repository Simple",
+  "name": "python_rye",
   // Use docker-compose.extend.yml to run a command that keeps the container running.
   "dockerComposeFile": ["./compose.yaml"],
-  "service": "python_repository_simple",
+  "service": "python_rye",
   "workspaceFolder": "/project",
   "shutdownAction": "stopCompose",
   // Comment out the next line to run as root instead. Linux users,
