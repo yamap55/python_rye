@@ -1,4 +1,4 @@
-# python_repository_simple
+# python_rye
 
 本リポジトリはシンプルな Python 環境のテンプレートリポジトリです
 devcontainer の設定をしていますので、VS Code と Docker、Git さえあれば各種開発用設定が行われた Python の開発環境が構築され、即時開発が可能です
