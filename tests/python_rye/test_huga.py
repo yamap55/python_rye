@@ -1,6 +1,6 @@
-from python_rye.huga import Huga
+from python_rye.hoge import Hoge
 
 
 class TestHuga:
     def test_huga(self):
-        assert Huga().piyo() == "piyo"
+        assert Hoge().piyo() == "piyo"

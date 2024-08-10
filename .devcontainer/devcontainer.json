@@ -9,13 +9,13 @@
   // Comment out the next line to run as root instead. Linux users,
   // update Dockerfile with your user's UID/GID if not 1000.
   "remoteUser": "vscode",
-  "features": {
-      // install the latest version of git
-      "ghcr.io/devcontainers/features/git:1": {
-          "version": "latest",
-          "ppa": "false"
-      }
-  },
+  //   "features": {
+  //     // install the latest version of git
+  //     "ghcr.io/devcontainers/features/git:1": {
+  //       "version": "latest",
+  //       "ppa": "false"
+  //     }
+  //   },
   "customizations": {
     "vscode": {
       "settings": {
@@ -50,7 +50,7 @@
         "[python]": {
           "editor.tabSize": 4,
           "editor.formatOnPaste": false,
-          "editor.defaultFormatter": "ms-python.black-formatter"
+          "editor.defaultFormatter": "charliermarsh.ruff"
         },
         "[json]": {
           "editor.tabSize": 2
@@ -78,5 +78,6 @@
       ]
     }
   },
-  "postStartCommand": "pip install -U pip && poetry self update && poetry install --no-interaction"
+  // "postStartCommand": "pip install -U pip && poetry self update && poetry install --no-interaction"
+  "postStartCommand": "pip install -U pip && rye self update"
 }
