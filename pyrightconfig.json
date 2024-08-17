@@ -9,5 +9,6 @@
   "reportDuplicateImport": true,
   "pythonVersion": "3.12",
   "pythonPlatform": "Linux",
+  "include": ["."],
   "ignore": ["./work"]
 }

@@ -5,9 +5,9 @@ from logging import getLogger
 logger = getLogger(__name__)
 
 
-class Huga:
+class Hoge:
     """
-    Huga class
+    Hoge class
     """
 
     def piyo(self) -> str:
