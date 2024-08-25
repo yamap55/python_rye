@@ -34,6 +34,8 @@
         "python.languageServer": "Pylance",
         "python.analysis.typeCheckingMode": "basic",
         "ruff.showNotifications": "always",
+        // ruff.pathを指定することでVS Code拡張にバンドルされているruffではなくryeのruffを使用する
+        "ruff.path": ["/home/vscode/.rye/self/bin/ruff"],
         "vsintellicode.python.completionsEnabled": true,
         "vsintellicode.features.python.deepLearning": "enabled",
         "vsintellicode.modify.editor.suggestSelection": "enabled",
