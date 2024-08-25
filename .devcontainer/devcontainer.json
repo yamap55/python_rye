@@ -27,15 +27,10 @@
             "path": "/bin/bash"
           }
         },
-        "black-formatter.args": ["--line-length", "100"],
-        "flake8.args": ["--config=.flake8"],
         "python.defaultInterpreterPath": "/project/.venv/bin/python",
         "python.pythonPath": "/project/.venv/bin/python",
-        "python.testing.unittestEnabled": false,
-        "python.testing.nosetestsEnabled": false,
         "python.testing.pytestEnabled": true,
         "python.analysis.diagnosticMode": "workspace",
-        "python.jediEnabled": false,
         "python.languageServer": "Pylance",
         "python.analysis.typeCheckingMode": "basic",
         "ruff.showNotifications": "always",
@@ -72,8 +67,6 @@
         "tamasfe.even-better-toml",
         "usernamehw.errorlens",
         "charliermarsh.ruff",
-        "ms-python.flake8",
-        "ms-python.black-formatter",
         "GitHub.copilot"
       ]
     }
