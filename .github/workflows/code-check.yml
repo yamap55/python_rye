@@ -1,9 +1,9 @@
-name: lint
+name: code-check
 
 on: [push]
 
 jobs:
-  lint:
+  code-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
