@@ -11,5 +11,6 @@ class Hoge:
     """
 
     def piyo(self) -> str:
-        logger.info("piyo" )
+        """return piyo"""
+        logger.info("piyo")
         return "piyo"
