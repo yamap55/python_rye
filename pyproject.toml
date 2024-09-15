@@ -22,10 +22,7 @@ packages = ["src/python_rye"]
 
 [tool.rye]
 managed = true
-dev-dependencies = [
-    "pytest>=8.3.2",
-    "pytest-cov>=5.0.0",
-]
+dev-dependencies = ["pytest>=8.3.2", "pytest-cov>=5.0.0"]
 # dev-dependencies = [
 #     # lint
 #     "black==24.4.2",
@@ -73,3 +70,16 @@ max-complexity = 10
 inline-quotes = "double"
 multiline-quotes = "double"
 docstring-quotes = "double"
+
+[tool.pyright]
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportImportCycles = true
+reportUnusedImport = true
+reportUnusedClass = true
+reportUnusedFunction = true
+reportUnusedVariable = true
+reportDuplicateImport = true
+pythonVersion = "3.12"
+pythonPlatform = "Linux"
+ignore = ["./work"]
